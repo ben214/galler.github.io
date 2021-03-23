@@ -1,0 +1,76 @@
+body{
+  background: linear-gradient(#AF8898, #A7BBB3);
+  filter: brightness(120%);
+  margin: 0;A7BBB3
+}
+.head-title{
+  float: left;
+  color: white;
+}
+.header{
+  height: 150px;
+  background: #1A1A3B;
+  margin: -30PX auto;
+  color: white;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  display: block;
+  filter: drop-shadow(2px 2px 10px brown);
+}
+a:link, a:visited{
+  text-decoration: none;
+  color: white;
+}
+a:hover{
+  filter: drop-shadow(1px 1px 2px white);
+}
+.content1{
+  line-height: 130px;
+  display: block;
+  }
+ul{
+  float: right;
+  margin: 0 auto;
+
+}
+li, #header .title{
+  display: inline;
+  margin-right: 15px;
+  margin-top: 30%;
+}
+.photo > img {
+  height: 150px;
+  width: 210px;
+  border: 1px solid #5A86D4;
+  border-radius: 7% ;
+  filter: drop-shadow(3px 3px 4px black);
+  PADDING: 8PX;
+  margin: 8PX;
+  background: #E5BA93;
+}
+.photo{
+ margin: 0 7% 0 7%;
+ max-width: 1000px;
+ display: inline-block;
+ text-align: center;
+}
+.column{
+  width: 200px;
+  display:inline-block;
+  vertical-align: top;
+  margin-left: 23%;
+}
+.content, .content1{
+  max-width: 1000px;
+  margin: 0 auto;
+}
+#container{
+  background: #9C5A75;
+  margin: 0 auto;
+  position:absolute;
+  right: 0;
+  left: 0;
+
+
+}
