@@ -27,17 +27,20 @@
   <div class="content">
 
     <div class="photo">
-      <img src="01.jpg" alt="">
-      <img src="02.jpg" alt="">
-      <img src="03.jpg" alt="">
-      <img src="04.jpg" alt="">
-      <img src="05.jpg" alt="">
-      <img src="06.jpg" alt="">
-      <img src="07.jpg" alt="">
-      <img src="08.jpg" alt="">
-      <img src="09.jpg" alt="">
-      <img src="10.jpg" alt="">
+      <img onmouseover="bigImg(this)" onclick="sliide()" onmouseout="normalImg(this)" src="01.jpg" alt="">
+      <img onmouseover="bigImg(this)" onclick="sliide()" onmouseout="normalImg(this)" src="02.jpg" alt="">
+      <img onmouseover="bigImg(this)" onclick="sliide()" onmouseout="normalImg(this)" src="03.jpg" alt="">
+      <img onmouseover="bigImg(this)" onclick="sliide()" onmouseout="normalImg(this)" src="04.jpg" alt="">
+      <img onmouseover="bigImg(this)" onclick="sliide()" onmouseout="normalImg(this)" src="05.jpg" alt="">
+      <img onmouseover="bigImg(this)" onclick="sliide()" onmouseout="normalImg(this)" src="06.jpg" alt="">
+      <img onmouseover="bigImg(this)" onclick="sliide()" onmouseout="normalImg(this)" src="07.jpg" alt="">
+      <img onmouseover="bigImg(this)" onclick="sliide()" onmouseout="normalImg(this)" src="08.jpg" alt="">
+      <img onmouseover="bigImg(this)" onclick="sliide()" onmouseout="normalImg(this)" src="09.jpg" alt="">
+      <img onmouseover="bigImg(this)" onclick="sliide()" onmouseout="normalImg(this)" src="10.jpg" alt="">
+      <img src="" id="playing">
+
     </div>
+
   </div>
  <div id="container">
   <div id="footer">
@@ -47,13 +50,15 @@
     <a href="twitter.com">Twitter</a>
    </div>
    <div class="column right">
-    <h4><a href="about.html" style="color: #333;">More about me</a></h4>
+    <h4><a href="about.html">More about me</a></h4>
     <p>For now I'm just learning basics
     and trying out some possibilities.</p>
 
    </div>
   </div>
 </div>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
   <script src="script.js"></script>
 </body>
 </html>
