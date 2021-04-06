@@ -1,0 +1,178 @@
+body{
+  background: linear-gradient(black, gray, black);
+  filter: brightness(120%);
+  margin: auto;
+
+}
+.head-title{
+  float: left;
+  color: white;
+}
+.header{
+  height: 150px;
+  background: #1A1A3B;
+  margin: -15px auto 0 auto;
+  color: white;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  display: block;
+  filter: drop-shadow(2px 2px 30px brown);
+}
+a:link, a:visited{
+  padding: 3px;
+  text-decoration: none;
+  color: #EBBA9A;
+}
+a:hover{
+  border-radius: 10px ;
+  padding: 3px;
+  background: #696984;
+}
+
+.content1{
+  line-height: 130px;
+  display: absolute;
+  margin-bottom: 0;
+  left: 0;
+  right: 0;
+
+
+}
+ul{
+ float: right;
+ margin: 0 auto;
+  }
+li, #header .title{
+  display: inline;
+  margin-top: 30%;
+}
+.photo > img {
+    height: 200px;
+    width: 300px;
+    border-radius: 7% ;
+    box-shadow: 3px 3px 10px 4px black;
+    margin: 16PX;
+
+  }
+
+.photo{
+   display: inline-block;
+   text-align:center;}
+
+.column{
+  width: 200px;
+  display:inline-block;
+  vertical-align: top;
+
+}
+.content, .content1{
+  max-width: 1200px;
+  margin: 20px auto;
+}
+#container{
+
+  background: #9C5A75;
+  position:absolute;
+  right: 0;
+  left: 0;
+
+}
+#footer{
+  margin:  0 auto ;
+  max-width: 800px;
+
+}
+.left{
+  float: left;
+}
+.right{
+  float: right;
+}
+
+#number{
+  position: absolute;
+  left: 25%;
+  top: 0px;
+  bottom: 5px solid white;
+  color: white;
+  filter: opacity(0.4);
+  font-size: 70px;
+  z-index: 0;
+}
+#slimg{
+  height: 500px;
+  width: 720px;
+  border-radius: 1px;
+  border: #AD98A1 solid 5px;
+  filter: opacity(1);
+  z-index: 0;
+  right: 23%;
+  position: absolute;
+  margin: 0 auto;
+}
+.linepic{
+  max-width: 100%;
+  position: absolute;
+  bottom:0;
+  margin-bottom: 0;
+  left: 0;
+  right: 0;
+  max-height: 80px;
+  background: darkgray;
+
+
+}
+.bottom{
+  height: 80px;
+  width: 120px;
+  filter: opacity(0.6);
+
+
+
+}
+button{
+  height: 480px;
+  width: 30%;
+  background: none;
+  border: none;
+  border-radius: 0;
+  color: white;
+  font-weight: 100;
+  font-size: 100px;
+  font-stretch:ultra-condensed;
+  filter:opacity(0);
+  margin-top: 0;
+}
+.slide{
+  position:relative;
+  text-align: center;
+}
+
+.slide-content{
+   text-align: center;
+   margin: 10px auto 0 auto;
+   height: 580px;
+   width: 100%;
+}
+
+#playing{
+  display: none;
+  position: absolute;
+  top: 450px;
+  left: 45%;
+  height: 10px;
+  width:10px;
+
+}
+
+
+#next{
+ position: absolute;
+ right: 0%;
+
+}
+#prev{
+ position: absolute;
+ left: 0%;
+}
